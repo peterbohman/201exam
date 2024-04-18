@@ -1,0 +1,59 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.header{
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+    justify-content: center;
+    background-color: black !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+p{
+    color: white !important;
+}
+
+/* Div styles */
+.common{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: gainsboro;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 5px solid gainsboro;
+}
